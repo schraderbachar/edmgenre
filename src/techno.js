@@ -114,6 +114,9 @@ export default function House(props) {
               <>
                 {" "}
                 <h1>Subgenre is: {subGenre}</h1>
+                <div className="col-sm-12 text-lg-start">
+                  <p>An artist you should listen to / check out is Trym</p>
+                </div>
                 <Button variant="primary" className="ms-3" onClick={startOver}>
                   Start Over
                 </Button>

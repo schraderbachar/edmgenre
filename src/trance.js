@@ -113,6 +113,14 @@ export default function Trance(props) {
             ) : (
               <>
                 <h1>Subgenre is: {subGenre}</h1>
+                <div className="col-sm-12 text-lg-start">
+                  <p>Here are some of my favorite Trance Artists</p>
+                  <ul>
+                    <li>Tiësto</li>
+                    <li>Armin van Buuren</li>
+                    <li>Dash Berlin</li>
+                  </ul>
+                </div>
                 <Button variant="primary" className="ms-3" onClick={startOver}>
                   Start Over
                 </Button>
