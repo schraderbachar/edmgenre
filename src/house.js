@@ -112,6 +112,18 @@ export default function House(props) {
               <>
                 {" "}
                 <h1>Subgenre is: {subGenre}</h1>
+                <div className="col-sm-12 text-lg-start">
+                  <p>Here are some of my favorite House Tracks</p>
+                  <ul>
+                    <li>Over by Tsuki</li>
+                    <li>Anything that Fred again made</li>
+                    <li>El Apagón by Bad Bunny</li>
+                    <li>Miss You by Oliver Tree</li>
+                    <li>
+                      Godfather by Frankie Knuclkes (The Godfather of House)
+                    </li>
+                  </ul>
+                </div>
                 <Button variant="primary" className="ms-3" onClick={startOver}>
                   Start Over
                 </Button>
